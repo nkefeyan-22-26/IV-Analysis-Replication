@@ -4,28 +4,34 @@
 **Track B: The Endogeneity & IV Strategy Track (Instrumental Variables)**
 
 ## Paper
-Angrist, J. D., & Evans, W. N. (1998). Children and Their Parents' Labor Supply: 
-Evidence from Exogenous Variation in Family Size. 
+Angrist, J. D., & Evans, W. N. (1998). Children and Their Parents' Labor Supply:
+Evidence from Exogenous Variation in Family Size.
 *American Economic Review*, 88(3), 450–477.
 
 ## Causal Question
 Does having more children causally reduce parental labor supply (hours worked / earnings)?
-Because family size is a choice (endogenous), the authors instrument for it using the 
-sex composition of the first two children — parents are more likely to have a third child 
+Because family size is a choice (endogenous), the authors instrument for it using the
+sex composition of the first two children — parents are more likely to have a third child
 if the first two are the same sex, a preference unrelated to labor market outcomes.
 
 ## Data Source
 Downloaded from the Angrist Data Archive at MIT Economics:
 https://economics.mit.edu/people/faculty/josh-angrist/angrist-data-archive
 
-The raw file (`census80.sas7bdat`) is not committed to this repo due to file size.
-To replicate: download `census80.sas7bdat` from the link above and place it in `data/raw/`.
+The original file (`m_d_806.sas7bdat`) is a SAS binary format common in academic economics
+research. It was loaded into Python, optimized, and saved as compressed `.csv.gz` files.
+Two versions of the processed data are stored in `data/raw/` — see `data/raw/README.md`
+for a full explanation of the files and how to recreate them from the original source.
 
-## Repository Structure
+## Working Repository Structure
 ```
-data/raw/          # Raw data files (not tracked by Git — see above)
-notebooks/         # Analysis notebooks
-  01_Data_Cleaning.ipynb
+data/
+└── raw/
+    ├── README.md                  # Data documentation
+    ├── census80_slim.csv.gz       # 20 key variables — used in all notebooks
+    └── census80_full.csv.gz       # All 85 variables — for reference
+notebooks/
+└── 01_Data_Cleaning.ipynb
 ```
 
 ## Environment
