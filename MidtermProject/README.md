@@ -11,7 +11,7 @@ Evidence from Exogenous Variation in Family Size.
 ## Causal Question
 Does having more children causally reduce parental labor supply (hours worked / earnings)?
 Because family size is a choice (endogenous), the authors instrument for it using the
-sex composition of the first two children — parents are more likely to have a third child
+sex composition of the first two children. They claim that parents are more likely to have a third child
 if the first two are the same sex, a preference unrelated to labor market outcomes.
 
 ## Data Source
