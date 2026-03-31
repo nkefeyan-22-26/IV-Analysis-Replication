@@ -111,6 +111,9 @@ data/
 3. Run `01_Data_Cleaning.ipynb` to reproduce the processed `.csv.gz` files
 4. Run `02_Replication_Analysis.ipynb` to reproduce all IV results
 
+## AI Tools Acknowledgement
+The heterogeneous treatment effects extension in `03_Extension_Analysis.ipynb`, including the IV-2SLS subgroup models by race and gender, the forest plot visualizations, and the written interpretation of results, were developed with the assistance of Claude (Anthropic, claude.ai). Claude was used as a collaborative coding and writing tool to design the interaction model specifications, generate the forest plots, and draft the methods and results documentation. All analytical decisions and interpretations were reviewed and directed by the project author.
+
 ## Environment
 - Python 3.10+
 - pandas, numpy, statsmodels, linearmodels, matplotlib, jupyter
