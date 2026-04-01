@@ -41,7 +41,7 @@ The left panel shows that the child penalty in weeks reduced for mothers is larg
 
 3. **The career tax on mothers is a structural outcome** — the relationship is causal rather than just correlational, telling us that the child causes the labor penalty and nothing else. This is addressable through policies like subsidized childcare, flexible scheduling, and onboarding programs for returning mothers. The expected return is a measurable positive effect on recovered labor supply.
 
-# Limitations & Next Steps
+## Limitations & Next Steps
 There is an uneven distribution of observations across race groups, which shows the demographic composition of the United States in 1980: White mothers are roughly 85% of the sample (n=764,068), while Black mothers are approximately 12% (n=108,812). “Other” makes up about 3%. The wide confidence intervals for 'Other' races in both panels reflect this smaller, more diverse sample (includes American Indian, Chinese, Japanese, Other Asian, and other groups). The variability in that estimate should therefore be interpreted with caution. A natural extension of this work would be to apply the same IV strategy to more recent Census data, where racial categories are more granular and sample sizes are larger.
 
 
