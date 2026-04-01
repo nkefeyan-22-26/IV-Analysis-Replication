@@ -45,7 +45,7 @@ The left panel shows that the child penalty in weeks reduced for mothers is larg
 There is an uneven distribution of observations across race groups, which shows the demographic composition of the United States in 1980: White mothers are roughly 85% of the sample (n=764,068), while Black mothers are approximately 12% (n=108,812). “Other” makes up about 3%. The wide confidence intervals for 'Other' races in both panels reflect this smaller, more diverse sample (includes American Indian, Chinese, Japanese, Other Asian, and other groups). The variability in that estimate should therefore be interpreted with caution. A natural extension of this work would be to apply the same IV strategy to more recent Census data, where racial categories are more granular and sample sizes are larger.
 
 
-
+# Project Overview
 # Replication: Angrist & Evans (1998) — Children and Parental Labor Supply
 
 ## Track
@@ -107,6 +107,8 @@ data/
         ├── 01_Data_Cleaning.ipynb         # Data ingestion, decoding, and processing
         ├── 02_Replication_Analysis.ipynb  # IV replication: First Stage, 2SLS, Wald
         └── 03_Extension_Analysis.ipynb    # HTE by race, mothers vs. fathers forest plots
+requirements.txt                           # Python dependencies
+README.md                                  # Executive Memo and project overview
 ```
 
 ## Reproducing the Analysis
